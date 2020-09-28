@@ -40,6 +40,7 @@
 + コード4.1 単回帰モデルの最小2乗法による推定: [pyecon\_simple\_regression.py](python/pyecon_simple_regression.py)
 + コード4.2 回帰係数のOLS推定量とt統計量の分布: [pyecon\_ols\_simulation.py](python/pyecon_ols_simulation.py)
 + コード4.3 年齢階級別賃金曲線の作図: [pyecon\_wage\_curve.py](python/pyecon_wage_curve.py)
++ 年齢階級別賃金データ: [wage\_curge.csv](python/wage_curve.csv)
 
 ### 第5章
 
