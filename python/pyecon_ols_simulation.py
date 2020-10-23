@@ -63,7 +63,7 @@ h = len(error)
 coef = np.array([0.0, 1.0])
 results = dict()
 for idx in range(h):
-     results[distribution[idx]] = ols_simulation(coef, n, m, error[idx])
+    results[distribution[idx]] = ols_simulation(coef, n, m, error[idx])
 #%% OLS推定量のヒストグラムの作図
 fig1, ax1 = plt.subplots(3, h, num=1, facecolor='w',
                          sharex='row', sharey='row')
