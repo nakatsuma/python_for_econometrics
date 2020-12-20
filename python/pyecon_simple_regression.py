@@ -24,8 +24,8 @@ jpfont = FontProperties(fname=FontPath)
 psid1 = sm.datasets.get_rdataset('psid1', 'DAAG')
 print(psid1.data)
 #%% 単回帰モデルの推定
-select_re75 =  (psid1.data['re75'] > 0)
-select_educ =  (psid1.data['educ'] > 0) & (psid1.data['educ'] <= 16)
+select_re75 = (psid1.data['re75'] > 0)
+select_educ = (psid1.data['educ'] > 0) & (psid1.data['educ'] <= 16)
 psid1.data = psid1.data[select_re75 & select_educ]
 y = psid1.data['re75'] / 10000
 x = psid1.data['educ']
